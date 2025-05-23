@@ -22,7 +22,7 @@ const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const OrderList = React.lazy(() => import("./pages/Order"));
 const UserList = React.lazy(() => import("./pages/User"));
 const Customers = React.lazy(() => import("./pages/Customer"));
-const NotFound = React.lazy(() => import("./pages/NotFound"));
+const NotFound = React.lazy(() => import("./pages/Notfound"));
 const ErrorPage = React.lazy(() => import("./pages/ErrorPage"));
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
 const AuthLayout = React.lazy(() => import("./layouts/AuthLayouts"));
