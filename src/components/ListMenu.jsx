@@ -2,6 +2,7 @@ import { FaUserFriends } from "react-icons/fa";
 import { IoMdList } from "react-icons/io"; 
 import { MdDashboard } from "react-icons/md"; 
 import { Link, NavLink } from "react-router-dom";
+import { MdFastfood } from "react-icons/md";
 import { MdError } from "react-icons/md";
 
 export default function ListMenu() {
@@ -34,6 +35,11 @@ export default function ListMenu() {
 	                    <NavLink id="menu-4" to="/users" className={menuClass}>
                             
                             <FaUserFriends />Users</NavLink>
+	                  </li>
+                    <li>
+	                    <NavLink id="menu-5" to="/products" className={menuClass}>
+                            
+                            <MdFastfood />Products</NavLink>
 	                  </li>
                 </ul>
             </div>
