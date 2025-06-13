@@ -31,7 +31,7 @@ const Register = React.lazy(() => import("./pages/auth/Register"));
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"));
 const Products = React.lazy(() => import("./pages/Products"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
-
+const Notes = React.lazy(() => import("./pages/Notes"));
 
 function App() {
   const [count, setCount] = useState(0);
@@ -48,6 +48,7 @@ function App() {
           <Route path="/users" element={<UserList />} />
           <Route path="products" element={<Products />} />
           <Route path="/products/:id" element={<ProductDetail />} />
+          <Route path="/notes" element={<Notes />} />
         </Route>
 
         <Route element={<AuthLayout />}>

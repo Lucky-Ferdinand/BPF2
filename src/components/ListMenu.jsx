@@ -41,6 +41,11 @@ export default function ListMenu() {
                             
                             <MdFastfood />Products</NavLink>
 	                  </li>
+                    <li>
+	                    <NavLink id="menu-6" to="/notes" className={menuClass}>
+                            
+                            <MdFastfood />Notes</NavLink>
+	                  </li>
                 </ul>
             </div>
     );
